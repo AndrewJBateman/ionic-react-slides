@@ -1,55 +1,70 @@
-# Ionic React Slides
+# :zap: Ionic React Slides
 
 * App to display an image on a simple Ionic card, using the [Ionic 5 framework](https://ionicframework.com/docs) with [React](https://reactjs.org/)].
-* Initially [Paul Halliday: Youtube tutorial](video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE).) code but to be added to.
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic React Slides](#zap-ionic-react-slides)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap:Inspiration](#clapinspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-* App was created using the `npm create-react-app` package then the ionic dependencies were added from npm. 
+* App was created using the `npm create-react-app` package then the ionic dependencies were added from npm.
 
-## Screenshots
+## :camera: Screenshots
 
 ![screen print](./img/slide.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Ionic v5.0.5](https://ionicframework.com/) framework
-* [React v16.13.0](https://reactjs.org/) library
-* [create-react-app v3.4.0](https://www.npmjs.com/package/create-react-app) npm module used to create the app
+* [Ionic v5](https://ionicframework.com/) framework
+* [React v16](https://reactjs.org/) library
+* [create-react-app v3](https://www.npmjs.com/package/create-react-app) npm module used to create the app
 
-## Setup
+## :floppy_disk: Setup
 
 * Load dependencies using `npm i`,
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* To start the server on _localhost://3000_ type: 'npm run start'
 
-## Code Examples
+## :computer: Code Examples
+
+* Simple ion card in html
+
+```html
+<IonCard>
+  <img
+      src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1113&q=80"
+      alt="view of mountain"/>
+  <IonCardHeader>
+    <IonCardTitle class="card-title">Look at this view</IonCardTitle>
+    <IonCardSubtitle>Isn't it great?</IonCardSubtitle>
+  </IonCardHeader>
+  <IonCardContent>Although it does look cold</IonCardContent>
+</IonCard>
+```
+
+## :cool: Features
 
 * N/A
 
-## Features
+## :clipboard: Status & To-do list
 
-* N/A
+* Status: working.
+* To-do: nothing
 
-## Status & To-do list
+## :clap:Inspiration
 
-* Status: working. Very simple Ion-card app
-* To-do: add functionality
+* [Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE).
 
-## Inspiration
+## :envelope: Contact
 
-* Paul Halliday: Youtube video: Ionic 4 - Angular, React and Vue.js](https://www.youtube.com/watch?v=eQTNqtVeTgE).
-
-## Contact
-
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) * you are welcome to [send me a message](https://andrewbateman.org/contact)
