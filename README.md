@@ -1,6 +1,6 @@
 # :zap: Ionic React Slides
 
-* App to display an image on a simple Ionic card, using the [Ionic 5 framework](https://ionicframework.com/docs) with [React](https://reactjs.org/)].
+* App to display an image on a simple Ionic card, using the [Ionic 5 framework](https://ionicframework.com/docs) with [React](https://reactjs.org/).
 
 ## :page_facing_up: Table of contents
 
@@ -59,7 +59,7 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: working.
+* Status: working. Updated april 2021.
 * To-do: nothing
 
 ## :clap:Inspiration
